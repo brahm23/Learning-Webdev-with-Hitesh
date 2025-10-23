@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkblue;
+      }
+
+      .Cards {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+      }
+
+      .card1,
+      .card2,
+      .card3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #1a1a1a;
+        height: 300px;
+        width: 400px;
+        border-radius: 30px;
+      }
+
+      .btn1,
+      .btn2,
+      .btn3 {
+        margin-top: 20px;
+      }
+      @media (max-width: 400px) {
+        .Cards {
+          display: flex;
+          flex-wrap: wrap;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Cards">
+      <div class="card1">
+        <img
+          style="width: 300px"
+          src="c147a-16805022267661-1920.jpeg"
+          alt="spidey1"
+        />
+        <button class="btn1">Watch now</button>
+      </div>
+      <div class="card2">
+        <img style="width: 300px" src="images.jpeg" alt="spidey2" />
+        <button class="btn2">Watch now</button>
+      </div>
+      <div class="card3">
+        <img
+          style="width: 300px"
+          src="wallpapersden.com_tom-holland-andrew-garfield-and-tobey-maguire-peter-parker-spider-man_1920x1080.jpeg"
+          alt="spidey3"
+        />
+        <button class="btn3">Watch now</button>
+      </div>
+    </div>
+  </body>
+</html>
