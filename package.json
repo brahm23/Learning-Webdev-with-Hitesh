@@ -1,0 +1,24 @@
+{
+  "name": "hitesh-choudhary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brahm23/Learning-Webdev-with-Hitesh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brahm23/Learning-Webdev-with-Hitesh/issues"
+  },
+  "homepage": "https://github.com/brahm23/Learning-Webdev-with-Hitesh#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.16",
+    "tailwindcss": "^4.1.16"
+  }
+}
